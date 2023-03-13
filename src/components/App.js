@@ -10,7 +10,12 @@ const App = () => {
       <Wrapper>
         <Settings />
         <Home />
+        <Home />
       </Wrapper>
+       {/* <UserContext.Provider value={{ greeting, changeGreeting }}>
+          <Settings />
+          <Home />
+        </UserContext.Provider> */}
     </div>
   )
 }
